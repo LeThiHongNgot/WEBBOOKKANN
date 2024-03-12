@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-left {
+    flex: 1;
+    flex-direction: column;
+    background-color: #e9eaee;
+    width: 25%;
+    min-height: 100vh;
+    margin-right: 5%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
+
+
+.form-right {
+    flex: 4;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    color: #97978d;
+}
+
+.menu-list mat-icon{
+    margin-bottom: -5px;
+}
